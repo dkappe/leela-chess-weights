@@ -1,6 +1,6 @@
 # leela-chess-weights
 
-Rating versus golang engine Donna v4.0.
+Rating versus golang engine Donna v4.0. 400 games with each engine getting a crack at the same specific 5 move opening with each color.
 
 ![Ratings Graph](https://raw.githubusercontent.com/dkappe/leela-chess-weights/master/chart.png)
 
