@@ -2,6 +2,8 @@
 
 Rating diff vs Donna, Crafty, Cheng 4.6, sennpai at 400 games with a 10 ply opening book. Each opening is played twice, once by each side. TC is 0.25 seconds per move. Each gauntlet has 400 games per engine.
 
+The graph shows how much better (or worse) than a particular engine Leela is by network ID. Positive numbers mean better. Error bars are generally a little over +- 30 elo. With the exception of ID238 and ID262, which are there for comparison, testing commenced with ID292 and tests every 4th network.
+
 ## System
 
 Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz
