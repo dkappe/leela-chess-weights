@@ -1,10 +1,12 @@
 # leela-chess-weights
 
+## Tracking Gauntlet
+
 ![Ratings Graph](https://raw.githubusercontent.com/dkappe/leela-chess-weights/master/chart.png)
 
-Rating diff vs Donna, Crafty, Cheng 4.6, sennpai at 400 games with a 10 ply opening book. Each opening is played twice, once by each side. TC is 0.25 seconds per move. Each gauntlet has 400 games per engine.
+Rating diff vs Donna, Crafty, Cheng, sennpai, gull and Komodo 12 with a 10 ply opening book. Each opening is played twice, once by each side. TC is 0.25 seconds per move. Each gauntlet has 400 games per engine.
 
-The graph shows how much better (or worse) than a particular engine Leela is by network ID. Positive numbers mean better. Error bars are generally a little over +- 30 elo. With the exception of ID238 and ID262, which are there for comparison, testing commenced with ID292 and tests every 4th network.
+The graph shows how much better (or worse) than a particular engine Leela is by network ID. Positive numbers mean better. Error bars are generally a little over +- 30 elo. With the exception of ID238 and ID262, which are there for comparison, testing commenced with ID292 and tests every 4th network. ID238 and ID262 are thrown in for good measure.
 
 ## Changes
 
