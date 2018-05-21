@@ -4,6 +4,8 @@
 
 The tracking gauntlet now uses lc0 with defaults. Performance is 7513 nps.
 
+![Ratings Graph](https://raw.githubusercontent.com/dkappe/leela-chess-weights/master/chart2.png)
+
 ## Old lczero Tracking Gauntlet
 ![Ratings Graph](https://raw.githubusercontent.com/dkappe/leela-chess-weights/master/chart.png)
 
