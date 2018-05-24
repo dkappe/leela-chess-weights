@@ -6,6 +6,8 @@ The tracking gauntlet now uses lc0 with defaults. Performance is 7513 nps.
 
 ![Ratings Graph](https://raw.githubusercontent.com/dkappe/leela-chess-weights/master/chart2.png)
 
+The Self Play line uses the self play ratings adjusted with the formula (rating - 5800)/2. The 5800 brings the series into the same range as the rest of the graph, and the 1/2 correction brings the rather steep self play graph in line with an eyeball of the CCRL ratings, i.e. 0 is random play in both cases and 5900 is about 2900 CCRL. Close enough.
+
 ## Old lczero Tracking Gauntlet
 ![Ratings Graph](https://raw.githubusercontent.com/dkappe/leela-chess-weights/master/chart.png)
 
