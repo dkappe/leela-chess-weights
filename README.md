@@ -4,7 +4,7 @@
 
 Last 10 nets vs 4 engines.
 
-The tracking gauntlet now uses lc0 with defaults. Performance is 7513 nps. Also, as of ID352 the number of games per engine is 200 rather than 400.
+The tracking gauntlet now uses lc0 with defaults. Performance is 7513 nps. Also, as of ID352 the number of games per engine is 200 rather than 400. As of ID364, we are tracking every 10 nets.
 
 ![Ratings Graph](https://raw.githubusercontent.com/dkappe/leela-chess-weights/master/chart2.png)
 
