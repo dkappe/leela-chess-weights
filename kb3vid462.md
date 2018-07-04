@@ -3,6 +3,27 @@
 TC 3+1
 Leela Ratio ~5.0
 
+### Settings
+
+```
+|   _ | |
+|_ |_ |_| built Jul  2 2018
+uci
+id name The Lc0 chess engine. v0.14.0
+id author The LCZero Authors.
+```
+
+Default params used for ID462.
+
+For KB3:
+```
+--cpuct=2.906
+--fpu-reduction=0.515
+--policy-softmax-temp=1.714
+```
+
+### Results
+
 ```
    KB3
    Rank Name                          Elo     +/-   Games   Score   Draws
