@@ -64,7 +64,7 @@ Rank Name                          Elo     +/-   Games   Score   Draws
 ```
 
 ### Equal Nodes
-2500 nodes, same params, no smart pruning.
+2500 nodes, same params, no smart pruning. From KB3's perspective. It has a slight edge.
 
 ```
 Games:	 200
