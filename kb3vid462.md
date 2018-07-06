@@ -41,3 +41,24 @@ For KB3:
       3 senpai                       -338     191      20   12.5%   25.0%
       4 cheng                        -436     nan      20    7.5%   15.0%
 ```      
+
+### Longer TC
+
+Same settings, but with 6+6
+```
+KB3
+Rank Name                          Elo     +/-   Games   Score   Draws
+   0 KB3                            14     105      24   52.1%   45.8%
+   1 komodo12                      280     nan       6   83.3%   33.3%
+   2 gull                          120     162       6   66.7%   66.7%
+   3 senpai                       -191     238       6   25.0%   50.0%
+   4 cheng                        -280     nan       6   16.7%   33.3%
+
+ID462
+Rank Name                          Elo     +/-   Games   Score   Draws
+   0 ID462                         154     126      24   70.8%   33.3%
+   1 komodo12                        0     173       6   50.0%   66.7%
+   2 gull                          -58     226       6   41.7%   50.0%
+   3 senpai                       -191     nan       6   25.0%   16.7%
+   4 cheng                        -inf     nan       6    0.0%    0.0%
+```
