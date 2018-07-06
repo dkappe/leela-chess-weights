@@ -62,3 +62,15 @@ Rank Name                          Elo     +/-   Games   Score   Draws
    3 senpai                       -191     nan       6   25.0%   16.7%
    4 cheng                        -inf     nan       6    0.0%    0.0%
 ```
+
+### Equal Nodes
+2500 nodes, same params, no smart pruning.
+
+```
+Games:	 200
+Wins:	 59
+Draws:	 101
+Pct:	 54.75% (45.25%)
+Elo:	 33
+Elo difference: 33.11 +/- 33.93
+```
