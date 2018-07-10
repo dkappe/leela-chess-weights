@@ -73,4 +73,25 @@ Draws:	 101
 Pct:	 54.75% (45.25%)
 Elo:	 33
 Elo difference: 33.11 +/- 33.93
+
+### Equal Nodes 2
+
+KB3 vs ID479 at equal nodes, 2500 and 5000.
+
+```
+2500 nodes KB3 vs ID479
+Games:	 100
+Wins:	 31
+Draws:	 47
+Pct:	 54.50% (45.50%)
+Elo:	 31
+
+5000 nodes KB3 vs ID479
+Games:	 100
+Wins:	 27
+Draws:	 59
+Pct:	 56.50% (43.50%)
+Elo:	 45
+```
+
 ```
