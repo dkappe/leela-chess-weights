@@ -6,7 +6,7 @@ import chess.uci
 import configparser
 
 cfg = configparser.ConfigParser()
-cfg.read('dodgy.cfg')
+cfg.read(sys.argv[1])
 
 LC0=cfg['DEFAULT']['LC0']
 LC0_OPTIONS = cfg['LC0_OPTIONS']
@@ -116,10 +116,8 @@ while True:
         sys.stderr.flush()
         continue
     
-    if diff >= DELTA:
-        #print(diff)
-        print(line)
-        sys.stdout.flush()
+    print(diff)
+    sys.stdout.flush()
     
 engine.quit()
 sf.quit()
