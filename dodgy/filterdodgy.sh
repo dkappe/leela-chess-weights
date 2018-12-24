@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python dodgyfilter.py < predodgy.epd > dodgy.epd
+python dodgyfilter.py dodgy.cfg < predodgy.epd > dodgy.epd

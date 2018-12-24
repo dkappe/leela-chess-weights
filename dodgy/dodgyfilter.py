@@ -6,7 +6,7 @@ import chess.uci
 import configparser
 
 cfg = configparser.ConfigParser()
-cfg.read('dodgy.cfg')
+cfg.read(sys.argv[1])
 
 LC0=cfg['DEFAULT']['LC0']
 LC0_OPTIONS = cfg['LC0_OPTIONS']
