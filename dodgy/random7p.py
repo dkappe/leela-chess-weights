@@ -76,14 +76,14 @@ def gen_board(piece_num = 6, pieces = ''):
 
 def main():
     board = chess.Board(fen=None)
-    with open('prebad.epd', 'w') as out:
+    with sys.stdout as out:
         
         for i in range(55000):
             #if not i%1000:
             #    print(i)
             wcount = 1 + (i%4)
             bcount = 4 - (i%4)
-
+            
             wp = 'K'
             wp += ''.join(random.choices('QRBNP', k=wcount))
             bp = 'k'
