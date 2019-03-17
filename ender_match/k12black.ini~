@@ -1,0 +1,34 @@
+[DEFAULT]
+Games=50
+Output=komodo_black.pgn
+Openings=/home/dkappe/work/chess/Arena/Engines/LeelaZero/192/openings/noomen3.pgn
+Enemy=Komodo 12
+Enemy Command=/home/dkappe/work/chess/Arena/Engines/Komodo/komodo-12-linux-BMI2
+Leela=ID11258 lc0 0.19.1-rc2
+Leela Command=/home/dkappe/deep1/chess/bin/lc0.19.1-rc2
+Ender=Franken-Ender-88
+Ender Command=/home/dkappe/deep1/chess/bin/lc0.19.1-rc2
+Movetime=2500
+Color=Black
+Leela Ratio=0.75
+EGTB Path=/home/dkappe/deep1/chess/egtb
+[Leela Options]
+Threads=2
+SyzygyPath=/home/dkappe/deep1/chess/egtb
+WeightsFile=/home/dkappe/work/chess/Arena/Engines/LeelaZero/192/weights_11258.txt.gz
+CPuct=2.5
+DirichletNoise=true
+[Ender Options]
+Threads=2
+SyzygyPath=/home/dkappe/deep1/chess/egtb
+WeightsFile=/home/dkappe/deep1/chess/ender-test/ender128-88.pb
+CPuct=3.1
+DirichletNoise=false
+SmartPruningFactor=0
+FpuReduction=1.02
+PolicyTemperature=1.7
+[Enemy Options]
+Threads=4
+Hash=1024
+Ponder=false
+SyzygyPath=/home/dkappe/deep1/chess/egtb

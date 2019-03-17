@@ -1,0 +1,377 @@
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "ID11258 lc0 0.19.1-rc1"]
+[Black "Komodo 12"]
+[Result "0-1"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. e4 e5 2. f4 d5 3. exd5 exf4 4. Nf3 Nf6 5. c4 c6 6. d4 Bb4+ 7. Nc3 O-O 
+8. Bxf4 cxd5 9. Be2 Nc6 10. O-O dxc4 11. Bxc4 Bg4 12. a3 Bd6 13. Bg5 h6 
+14. Bh4 Be7 15. Bf2 Rc8 16. Ba2 Qd7 17. h3 Bxf3 18. Qxf3 Nxd4 19. Qd3 Rfd8
+20. Rae1 Bc5 21. Ne4 Nxe4 22. Rxe4 Rc6 23. Kh1 Rf6 24. Ree1 Nb3 25. Qxd7 
+Rxd7 26. Bg3 Rxf1+ 27. Rxf1 Nd2 28. Rd1 Be3 29. Bb8 b5 30. Be5 Re7 31. Bb8
+a6 32. g4 Nc4 33. b3 Nd2 34. b4 Nc4 35. Rd8+ Kh7 36. Bxc4 bxc4 37. Rc8 Re4
+38. Rc6 Bd2 39. Rxa6 c3 40. Rc6 Re6 41. Rc8 Ra6 42. Be5 Rxa3 43. b5 f6 44.
+ Bd4 Ra1+ 45. Kg2 Ra2 46. Kf3 c2 47. Be3 Ra3 48. Rxc2 Bxe3 49. Ke4 Rb3 50.
+ Kd5 Rxb5+ 51. Kd6 Bf4+ 52. Ke6 Re5+ 53. Kf7 Re3 54. Rc6 Rxh3 55. Rc8 Rg3 
+56. Rg8 Rxg4 57. Rf8 h5 58. Rb8 Bxb8 59. Ke7 Rd4 60. Ke6 h4 61. Kf7 Re4 
+62. Kf8 Kg6 63. Kg8 Re8# 0-1
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Franken-Ender-83"]
+[Black "Komodo 12"]
+[Result "1/2-1/2"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. e4 e5 2. f4 d5 3. exd5 exf4 4. Nf3 Nf6 5. c4 c6 6. d4 Bb4+ 7. Nc3 O-O 
+8. Bxf4 cxd5 9. Be2 Nc6 10. O-O dxc4 11. Bxc4 Bg4 12. a3 Bd6 13. Bg5 h6 
+14. Bh4 Be7 15. Bf2 Rc8 16. Ba2 Qd7 17. h3 Bxf3 18. Qxf3 Nxd4 19. Qd3 Rfd8
+20. Rae1 Bc5 21. Ne4 Nxe4 22. Rxe4 Rc6 23. Kh1 Rf6 24. Ree1 Nb3 25. Qxd7 
+Rxd7 26. Bg3 Rxf1+ 27. Rxf1 Nd2 28. Rd1 Be3 29. Bb8 b5 30. Be5 Re7 31. Bb8
+a6 32. g4 Nc4 33. b3 Nd2 34. b4 Nc4 35. Rd8+ Kh7 36. Bxc4 bxc4 37. Rc8 Re4
+38. Kg2 Bd2 39. Ba7 c3 40. Bf2 Rf4 41. Rc6 f6 42. Bg3 Rd4 43. Bf2 Rd3 44. 
+h4 Kg6 45. a4 c2 46. Rxc2 Bxb4 47. Rc7 h5 48. gxh5+ Kh6 49. Kf1 Ra3 50. 
+Ke2 Ra2+ 51. Kf3 Bd2 52. Bc5 Rxa4 53. Bf8 Kxh5 54. Bxg7 f5 55. Rf7 Kg6 56.
+ Rd7 Ra3+ 57. Ke2 Bc1 58. Bf8 Re3+ 59. Kf2 Re8 60. Bc5 Re5 61. Rc7 Bd2 62.
+ Bd4 Re4 63. Bc3 Be3+ 64. Kf3 Bh6 65. Rc6+ Kh5 66. Kf2 Rf4+ 67. Ke2 Rxh4 
+68. Rxa6 Rc4 69. Be1 Bg5 70. Kf3 Rf4+ 71. Kg2 Re4 72. Kf1 Rxe1+ {TB draw} 
+1/2-1/2
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "ID11258 lc0 0.19.1-rc1"]
+[Black "Komodo 12"]
+[Result "1/2-1/2"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nd7 4. c4 Ngf6 5. Nc3 exd4 6. Nxd4 g6 7. f3 Bg7 
+8. Bg5 Nc5 9. Qd2 O-O 10. h4 Qe8 11. O-O-O h5 12. Ncb5 Qe7 13. Nc3 Qe8 14.
+ Kb1 a6 15. Be2 Bd7 16. Qf4 Qe7 17. Qh2 Qe8 18. Qf4 Qe7 19. Rd2 Rfe8 20. 
+Rc1 Rac8 21. Bd1 a5 22. a3 Qe5 23. Qxe5 Rxe5 24. Bc2 Ree8 25. Rcd1 Kh7 26.
+ Be3 b6 27. Bg5 Kg8 28. Rf2 Nh7 29. Bc1 Be5 30. Rff1 Kg7 31. b3 Bg3 32. 
+Rh1 Nf6 33. Ndb5 Be5 34. Bb2 Kg8 35. Rhg1 Bh2 36. Rgf1 Be5 37. Rh1 Kf8 38.
+ Rd2 Bf4 39. Rdd1 Be5 40. Rhg1 Bh2 41. Rgf1 Be5 42. Nd4 Ne6 43. Ndb5 Nc5 
+44. Ka2 Kg8 45. Rg1 Kf8 46. Rd2 Kg7 47. g3 Kg8 48. Rdd1 Kh7 49. Kb1 Kg8 
+50. Rd2 Re7 51. Kc1 Ree8 52. Rdd1 Kh7 53. Rg2 Bh3 54. Rgg1 Bd7 55. Nd4 Ng8
+56. Kb1 Ne7 57. g4 hxg4 58. fxg4 Kg8 59. Nf3 Bg7 60. h5 Nc6 61. Nd5 Bxb2 
+62. Kxb2 Kg7 63. b4 Nxe4 64. Rdf1 axb4 65. axb4 Re6 66. g5 gxh5 67. Nf4 
+Rce8 68. Nxh5+ Kf8 69. Nf4 Nxb4 70. Bb1 Nc5 71. Nxe6+ Rxe6 72. g6 Re2+ 73.
+ Ka3 Re3+ 74. Kb2 fxg6 75. Nd4+ Ke7 76. Rxg6 Nbd3+ 77. Bxd3 Rxd3 78. Rg7+ 
+Ke8 79. Nb5 c6 80. Rg8+ Ke7 81. Nc7 Rd2+ 82. Ka3 d5 83. cxd5 Rd3+ 84. Kb2 
+cxd5 85. Rg6 Kd8 86. Na8 Rd2+ 87. Kc3 Ne4+ 88. Kb3 Bb5 89. Rf3 Be2 90. Rh3
+Bc4+ 91. Ka3 Ra2+ 92. Kb4 Rb2+ 93. Ka3 Ra2+ 94. Kb4 Rb2+ 95. Ka3 1/2-1/2
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Franken-Ender-83"]
+[Black "Komodo 12"]
+[Result "1-0"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. e4 e5 2. Nf3 d6 3. d4 Nd7 4. c4 Ngf6 5. Nc3 exd4 6. Nxd4 g6 7. f3 Bg7 
+8. Bg5 Nc5 9. Qd2 O-O 10. h4 Qe8 11. O-O-O h5 12. Ncb5 Qe7 13. Nc3 Qe8 14.
+ Kb1 a6 15. Be2 Bd7 16. Qf4 Qe7 17. Qh2 Qe8 18. Qf4 Qe7 19. Rd2 Rfe8 20. 
+Rc1 Rac8 21. Bd1 a5 22. a3 Qe5 23. Qxe5 Rxe5 24. Bc2 Ree8 25. Rcd1 Kh7 26.
+ Be3 b6 27. Bg5 Kg8 28. Rf2 Nh7 29. Bc1 Be5 30. Rff1 Kg7 31. b3 Bg3 32. 
+Rh1 Nf6 33. Ndb5 Be5 34. Bb2 Kg8 35. Rhg1 Bh2 36. Rgf1 Be5 37. Rh1 Kf8 38.
+ Rd2 Bf4 39. Rdd1 Be5 40. Rhg1 Bh2 41. Rgf1 Be5 42. Nd4 Ne6 43. Ndb5 Nc5 
+44. Ka2 Kg8 45. Rg1 Kf8 46. Rd2 Kg7 47. g3 Kg8 48. Rdd1 Kh7 49. Kb1 Kg8 
+50. Rd2 Re7 51. Kc1 Ree8 52. Rdd1 Kh7 53. Rg2 Bh3 54. Rgg1 Bd7 55. Nd4 Ng8
+56. Kb1 Ne7 57. g4 hxg4 58. fxg4 Kg8 59. Nf3 Bg7 60. h5 Nc6 61. Nd5 Bxb2 
+62. Kxb2 Kg7 63. b4 Nxe4 64. Rdf1 axb4 65. axb4 Re6 66. g5 gxh5 67. Nf4 
+Rce8 68. Nxh5+ Kf8 69. Nf4 Nxb4 70. Bb1 Nc5 71. Nxe6+ Rxe6 72. g6 Na4+ 73.
+ Kc1 fxg6 74. Ng5+ Ke7 75. Nxe6 Bxe6 76. Rxg6 Bxc4 77. Rg7+ Ke6 78. Rh1 
+Nc5 79. Rxc7 b5 80. Bh7 Ke5 81. Rh4 Nbd3+ 82. Kd2 d5 83. Rc8 Nb3+ 84. Ke3 
+d4+ 85. Kf3 Ndc5 86. Rd8 Nd2+ 87. Kg2 Ne6 88. Rd7 Nb3 89. Kg3 Nec5 90. 
+Rh5+ Ke6 91. Bf5+ Kf6 92. Rdh7 Bf7 93. R7h6+ Ke7 94. Rh4 d3 95. Rh7 d2 96.
+ Bc2 Nc1 97. Kf2 Ke8 98. Ke3 N1d3 99. Kxd2 Ne5 100. Kc3 Ncd7 101. Rf4 Bc4 
+102. Be4 Nb6 103. Kd4 Ned7 104. Bc6 Kd8 105. Bxd7 Nxd7 106. Rf3 Be6 107. 
+Re3 Nf6 108. Ra7 Bd7 109. Rf3 Ne8 110. Kc5 Nc7 111. Rf7 Ne6+ 112. Kd6 Bc8 
+113. Rh7 b4 114. Rh8+ Nf8 115. Rxf8# 1-0
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "ID11258 lc0 0.19.1-rc1"]
+[Black "Komodo 12"]
+[Result "0-1"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. e4 c5 2. c3 e6 3. d4 d5 4. exd5 exd5 5. Nf3 Nf6 6. Bb5+ Bd7 7. Bxd7+ 
+Nbxd7 8. O-O Be7 9. Qb3 O-O 10. Qxb7 Bd6 11. Qa6 Nb8 12. Qd3 c4 13. Qc2 
+Qc7 14. Bg5 Ne4 15. Nbd2 f5 16. Bh4 Nd7 17. Bg3 Bxg3 18. hxg3 a5 19. Rfc1 
+a4 20. b3 axb3 21. axb3 Rxa1 22. Rxa1 cxb3 23. Qxb3 Nxc3 24. Kh1 Qc6 25. 
+Nf1 Ne4 26. Kg1 Ndf6 27. Ra7 Nc3 28. Qb2 Nfe4 29. Ra1 Re8 30. Ne3 Nxg3 31.
+ fxg3 Rxe3 32. Ne5 Qc8 33. Ra5 Re1+ 34. Kh2 Qe8 35. Nf3 Nd1 36. Qb7 Nf2 
+37. Qxd5+ Kh8 38. g4 Nxg4+ 39. Kg3 Qb8+ 40. Ne5 g5 41. Kh3 Rh1+ 42. Kg3 
+Rc1 43. Kh3 Ne3 44. Qf7 Rh1+ 45. Kg3 Nf1+ 46. Kf3 Nd2+ 47. Ke2 Ne4 48. Nd3
+Re1+ 49. Kxe1 Qb1+ 50. Ke2 Qc2+ 51. Ke1 Qd2+ 52. Kf1 Qd1+ 53. Ne1 Ng3+ 54.
+ Kg1 Qxe1+ 55. Kh2 Nf1+ 56. Kg1 Ne3+ 57. Kh2 Ng4+ 58. Kh3 Qh4# 0-1
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Franken-Ender-83"]
+[Black "Komodo 12"]
+[Result "1/2-1/2"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. e4 c5 2. c3 e6 3. d4 d5 4. exd5 exd5 5. Nf3 Nf6 6. Bb5+ Bd7 7. Bxd7+ 
+Nbxd7 8. O-O Be7 9. Qb3 O-O 10. Qxb7 Bd6 11. Qa6 Nb8 12. Qd3 c4 13. Qc2 
+Qc7 14. Bg5 Ne4 15. Nbd2 f5 16. Bh4 Nd7 17. Bg3 Bxg3 18. hxg3 a5 19. Rfc1 
+a4 20. b3 axb3 21. axb3 Rxa1 22. Rxa1 cxb3 23. Qxb3 Nxc3 24. Kh1 Qc6 25. 
+Nf1 Ne4 26. Kg1 Ndf6 27. Ra7 Nc3 28. Qb2 Nfe4 29. Ra1 Re8 30. Ne3 Nxg3 31.
+ fxg3 Rxe3 32. Ra3 Nd1 33. Qb1 Qc8 34. Rb3 Rxb3 35. Qxb3 Nc3 36. Ne5 Ne2+ 
+37. Kh2 Nc3 38. Nd3 Kh8 39. Ne5 g6 40. Qb4 Ne4 41. Qe7 Qg8 42. Nf7+ Kg7 
+43. Ng5+ Kh6 44. Nf7+ Kg7 45. Ng5+ Kh6 46. Nf3 Qb8 47. Ne5 Ng5 48. Nd7 Qg8
+49. Ne5 Qc8 50. Nd7 Qg8 51. Ne5 Qc8 52. Qd6 Ne4 53. Qxd5 Qc3 54. Ng4+ Kh5 
+55. Qe5 Qxg3+ 56. Qxg3 Nxg3 57. Kxg3 fxg4 58. Kf4 Kh6 59. Kxg4 {TB draw} 
+1/2-1/2
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "ID11258 lc0 0.19.1-rc1"]
+[Black "Komodo 12"]
+[Result "1-0"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 h6 4. Bxf6 Qxf6 5. Nf3 Nc6 6. e5 Qg6 7. Nc3 d5 
+8. h4 Be7 9. a3 Bd7 10. h5 Qh7 11. Bd3 Qg8 12. Qd2 a6 13. Ne2 O-O-O 14. 
+Rh3 Kb8 15. Rg3 Qf8 16. Kf1 Bg5 17. Nxg5 hxg5 18. Qxg5 f6 19. Qxg7 fxe5 
+20. Qxf8 Rdxf8 21. Bg6 exd4 22. Kg1 Rhg8 23. Re1 e5 24. Rg5 Be8 25. f4 
+Bxg6 26. hxg6 exf4 27. Rf1 Nd8 28. Nxf4 Rxf4 29. Rxf4 Ne6 30. Rfg4 Nxg5 
+31. Rxg5 Kc8 32. Rxd5 Rxg6 33. Rxd4 Rb6 34. b3 Rc6 35. Rc4 Rg6 36. Kf2 Kd7
+37. g4 Kd6 38. Kg3 c6 39. Rf4 Ke6 40. a4 Rg8 41. a5 Rg5 42. b4 Rg7 43. Kh4
+Ke5 44. Rf3 Rh7+ 45. Kg5 Rh8 46. Rf7 Rg8+ 47. Kh5 c5 48. bxc5 Ke6 49. Rxb7
+Rh8+ 50. Kg5 Rg8+ 51. Kh4 Rh8+ 52. Kg3 Kd5 53. Rb6 Rh1 54. Rxa6 Kd4 55. c6
+Rh7 56. c7 Rxc7 57. c4 Kc5 58. Rb6 Ra7 59. Rg6 Kd4 60. Re6 Kd3 61. Re8 Kc2
+62. a6 Kd1 63. g5 Kc1 64. g6 Rd7 65. a7 Rd3+ 66. Kg2 Rd2+ 67. Kf3 Rd3+ 68.
+ Kg4 Rd4+ 69. Kf5 Rh4 70. a8=Q Rh5+ 71. Kf4 Rh4+ 72. Kg5 Rh2 73. Re2 Kd1 
+74. Rxh2 {TB win for White} 1-0
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Franken-Ender-83"]
+[Black "Komodo 12"]
+[Result "1/2-1/2"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. d4 Nf6 2. Bg5 e6 3. e4 h6 4. Bxf6 Qxf6 5. Nf3 Nc6 6. e5 Qg6 7. Nc3 d5 
+8. h4 Be7 9. a3 Bd7 10. h5 Qh7 11. Bd3 Qg8 12. Qd2 a6 13. Ne2 O-O-O 14. 
+Rh3 Kb8 15. Rg3 Qf8 16. Kf1 Bg5 17. Nxg5 hxg5 18. Qxg5 f6 19. Qxg7 fxe5 
+20. Qxf8 Rdxf8 21. Bg6 exd4 22. Kg1 Rhg8 23. Re1 e5 24. Rg5 Be8 25. f4 
+Bxg6 26. hxg6 exf4 27. Rf1 Nd8 28. Nxf4 Rxf4 29. Rxf4 Ne6 30. Rff5 Nxg5 
+31. Rxg5 c6 32. Kf2 Kc7 33. Kf3 c5 34. Kf4 Kd6 35. Rg3 c4 36. Kf5 Ke7 37. 
+Rg4 d3 38. cxd3 cxd3 39. Rd4 Rf8+ 40. Kg5 Rf2 41. Rxd3 Rxg2+ 42. Kh6 Kf6 
+43. Rf3+ Ke5 44. g7 d4 45. Kh7 Ke4 46. Rf7 Rh2+ 47. Kg6 Rg2+ 48. Kh7 Rh2+ 
+49. Kg8 Rxb2 50. Re7+ Kd5 51. Rd7+ Ke4 52. Re7+ Kf3 53. Rd7 Ke4 1/2-1/2
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "ID11258 lc0 0.19.1-rc1"]
+[Black "Komodo 12"]
+[Result "0-1"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. e4 c5 2. Nf3 e6 3. b3 b6 4. Bb2 Bb7 5. Nc3 Nc6 6. d4 cxd4 7. Nxd4 a6 8.
+ Nxc6 Bxc6 9. Qe2 Nh6 10. O-O-O Bc5 11. h4 O-O 12. g4 f6 13. Kb1 Nf7 14. 
+f4 Qc7 15. f5 b5 16. g5 fxg5 17. f6 gxf6 18. Nd5 exd5 19. exd5 Bb7 20. Qh5
+Ne5 21. hxg5 d6 22. Bd3 f5 23. g6 Qg7 24. Bxf5 Rae8 25. Qh3 Rf6 26. gxh7+ 
+Kh8 27. Rh2 Bxd5 28. Rxd5 Rxf5 29. a3 Qf7 30. Rdd2 Rg5 31. Rdg2 Be3 32. 
+Ka2 Bf4 33. Rh1 Qe6 34. Qf3 Rxg2 35. Qxg2 Bh6 36. Qb7 Bg7 37. Rg1 Bf6 38. 
+Qxa6 Qd5 39. Rg3 Rf8 40. Qa7 Qc5 41. Qb7 Qxc2 42. Rg2 Qc5 43. Qe4 Qb6 44. 
+Qd5 Bg7 45. Rc2 Qb8 46. Qe6 Rd8 47. Qd5 Re8 48. Rg2 Rf8 49. Rc2 Rf6 50. 
+Qg2 Qe8 51. Qh1 Rf3 52. Rc7 Rf2 53. Rxg7 Rxb2+ 54. Kxb2 Kxg7 55. a4 bxa4 
+56. bxa4 Qb8+ 57. Ka2 Kh8 58. Qe4 Qb6 59. Qh4 Qc7 60. Kb3 Qf7+ 61. Ka3 
+Qf3+ 62. Ka2 Qd5+ 63. Kb2 Qd3 64. Qb4 Kxh7 65. a5 Kg6 66. Ka2 Qc4+ 67. Ka3
+Qxb4+ {TB win for Black} 0-1
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Franken-Ender-83"]
+[Black "Komodo 12"]
+[Result "1/2-1/2"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. e4 c5 2. Nf3 e6 3. b3 b6 4. Bb2 Bb7 5. Nc3 Nc6 6. d4 cxd4 7. Nxd4 a6 8.
+ Nxc6 Bxc6 9. Qe2 Nh6 10. O-O-O Bc5 11. h4 O-O 12. g4 f6 13. Kb1 Nf7 14. 
+f4 Qc7 15. f5 b5 16. g5 fxg5 17. f6 gxf6 18. Nd5 exd5 19. exd5 Bb7 20. Qh5
+Ne5 21. hxg5 d6 22. Bd3 f5 23. g6 Qg7 24. Bxf5 Rae8 25. Qh3 Rf6 26. gxh7+ 
+Kh8 27. Rh2 Bxd5 28. Rxd5 Rxf5 29. a3 Qf7 30. Rdd2 Rg5 31. Rdg2 Be3 32. 
+Ka2 Bf4 33. Rh1 Qe6 34. Qf3 Rxg2 35. Qxg2 Bh6 36. Qb7 Bg7 37. Qxa6 Qd7 38.
+ Rd1 Nf7 39. Rg1 Bxb2 40. Kxb2 Rf8 41. Qb6 Qf5 42. Kb1 Qc5 43. Qxc5 dxc5 
+44. Rf1 Kxh7 45. Rf5 Kg7 46. Rxc5 Nd6 47. a4 Rb8 48. axb5 Nxb5 49. Kb2 Nd4
+50. Rc4 Ne6 51. Rc6 Kf6 52. Rc4 Ke5 53. Rh4 Nd4 54. Rh5+ Kf4 55. Rh4+ Ke3 
+56. Rh3+ Kf2 57. Rd3 Ne2 58. Ka3 Nf4 59. Rd4 Ke3 60. Rc4 Rb7 61. b4 Ng2 
+62. Ka4 Kd2 63. Kb3 Kc1 64. Rc8 Ne3 65. c4 Rd7 66. b5 Rd3+ 67. Kb4 Kc2 68.
+ b6 Rb3+ 69. Ka5 Kc3 70. c5 Kc4 71. Ka6 Nd5 72. Ka7 Ne7 73. Rc7 Nd5 74. 
+Rc8 Kb5 75. b7 Ra3+ 76. Kb8 Ra2 77. Rc7 Re2 78. Ka7 Ra2+ 79. Kb8 Re2 80. 
+Rc8 Nb4 81. Kc7 Re7+ 82. Kb8 Re6 83. Ka7 Ra6+ 84. Kb8 Nc6+ 85. Kc7 Kxc5 {
+TB draw} 1/2-1/2
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "ID11258 lc0 0.19.1-rc1"]
+[Black "Komodo 12"]
+[Result "1/2-1/2"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. Nf3 d5 2. c4 d4 3. e3 Nc6 4. Nxd4 Nxd4 5. exd4 Qxd4 6. d3 e5 7. Be2 Nf6
+8. Nc3 Bc5 9. Be3 Qd6 10. Nb5 Qe7 11. Bxc5 Qxc5 12. d4 exd4 13. Qxd4 Qxd4 
+14. Nxd4 Bd7 15. Nb5 Bxb5 16. cxb5 O-O-O 17. Rd1 Rhe8 18. f3 Rxd1+ 19. 
+Kxd1 Nd5 20. g3 Kd7 21. Kd2 Kd6 22. Rc1 f5 23. Rc4 g5 24. Ra4 f4 25. Rxa7 
+fxg3 26. hxg3 h5 27. Ra4 Rh8 28. Ke1 h4 29. Kf2 hxg3+ 30. Kxg3 Rh1 31. Rd4
+Ke5 32. Rd1 Rh4 33. Re1 Nf4 34. Bf1+ Kd6 35. b3 Nh5+ 36. Kg2 Nf4+ 37. Kg1 
+Ne6 38. Kg2 Nf4+ 39. Kg1 Ne6 40. Bd3 b6 41. Rd1 Ke5 42. Bc4 Nd4 43. Rd3 
+Ne2+ 44. Kf2 Rh2+ 45. Ke3 Nf4 46. Rd7 Ng2+ 47. Kd3 Ne1+ 48. Kc3 Nxf3 49. 
+Rxc7 g4 50. Rg7 Kf4 51. Rf7+ Ke4 52. Rg7 Kf4 53. a4 g3 54. a5 g2 55. axb6 
+g1=Q 56. Rxg1 Nxg1 57. Kb4 Rh8 58. Kc5 Nf3 59. b7 Ke5 60. Kc6 Nd2 61. Kc7 
+Rh7+ 62. Kb6 Rh8 63. Kc7 Rh7+ 64. Kb6 Rh8 1/2-1/2
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Franken-Ender-83"]
+[Black "Komodo 12"]
+[Result "0-1"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. Nf3 d5 2. c4 d4 3. e3 Nc6 4. Nxd4 Nxd4 5. exd4 Qxd4 6. d3 e5 7. Be2 Nf6
+8. Nc3 Bc5 9. Be3 Qd6 10. Nb5 Qe7 11. Bxc5 Qxc5 12. d4 exd4 13. Qxd4 Qxd4 
+14. Nxd4 Bd7 15. Nb5 Bxb5 16. cxb5 O-O-O 17. Rd1 Rhe8 18. f3 Rxd1+ 19. 
+Kxd1 Nd5 20. g3 Kd7 21. Kd2 Kd6 22. Rc1 f5 23. Rc4 g5 24. Ra4 f4 25. Rxa7 
+fxg3 26. hxg3 h5 27. Bc4 Nb6 28. Bf1 h4 29. gxh4 gxh4 30. Rxb7 Rh8 31. Bh3
+Ra8 32. Ke3 Nc4+ 33. Kf4 Na5 34. Rxc7 Kxc7 35. Kg5 Nc4 36. Kxh4 Rxa2 37. 
+b3 Nd2 38. f4 Nxb3 39. f5 Nd4 40. f6 Nxb5 {TB win for Black} 0-1
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "ID11258 lc0 0.19.1-rc1"]
+[Black "Komodo 12"]
+[Result "1/2-1/2"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. d4 Nf6 2. Bf4 e6 3. e3 c5 4. Nf3 d5 5. Nbd2 Nc6 6. c3 Be7 7. h3 O-O 8. 
+Bd3 c4 9. Bc2 b5 10. O-O Bb7 11. e4 a5 12. e5 Nd7 13. Re1 b4 14. Re3 Re8 
+15. h4 h6 16. Nh2 Bxh4 17. Ng4 Kf8 18. Rh3 Bg5 19. Bg3 a4 20. f4 b3 21. 
+Bh7 Be7 22. Nxh6 Ndxe5 23. Qh5 g6 24. Qe2 Nxd4 25. cxd4 Nd3 26. Nxf7 Qb6 
+27. Kh2 Bf6 28. Ne5 Ke7 29. Bxg6 Rh8 30. Bxd3 cxd3 31. Qxd3 Bxe5 32. fxe5 
+Raf8 33. axb3 a3 34. Rxa3 Rxh3+ 35. Kxh3 Rh8+ 36. Bh4+ Kd7 37. Nf3 Kc8 38.
+ Ra1 Bc6 39. Ra6 Qc7 40. Qc3 Kb7 41. Ra1 Qb6 42. Qc5 Re8 43. Qc3 Rc8 44. 
+Be7 Ba4 45. Bc5 Qxb3 46. Qxb3+ Bxb3 47. Ba3 Bc4 48. Rc1 Rg8 49. g4 Bd3 50.
+ b3 Be4 51. Kg3 Rg7 52. Nh2 Bd3 53. Bc5 Ka8 54. Rc3 Be2 55. Ba3 Kb7 56. 
+Re3 Bd1 57. Rd3 Be2 58. Rd2 Bb5 59. Nf3 Rg8 60. Kf4 Ra8 61. Bc5 Bd7 62. 
+Be7 Ra1 63. g5 Be8 64. Bd6 Bg6 65. Rg2 Rh1 66. Rg1 Rh3 67. Be7 Be4 68. Rg3
+Rh7 69. Bf6 Bg6 70. Rg4 Rh1 71. Rh4 Rf1 72. Ke3 Bc2 73. Rh6 Bd1 74. Rh3 
+Bc2 75. Rh6 Bd1 76. Nh4 Bc2 1/2-1/2
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Franken-Ender-83"]
+[Black "Komodo 12"]
+[Result "1-0"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. d4 Nf6 2. Bf4 e6 3. e3 c5 4. Nf3 d5 5. Nbd2 Nc6 6. c3 Be7 7. h3 O-O 8. 
+Bd3 c4 9. Bc2 b5 10. O-O Bb7 11. e4 a5 12. e5 Nd7 13. Re1 b4 14. Re3 Re8 
+15. h4 h6 16. Nh2 Bxh4 17. Ng4 Kf8 18. Rh3 Bg5 19. Bg3 a4 20. f4 b3 21. 
+Bh7 Be7 22. Nxh6 Ndxe5 23. Qh5 g6 24. Qe2 Nxd4 25. cxd4 Nd3 26. Nxf7 Qb6 
+27. Kh2 Bf6 28. Ne5 Ke7 29. Bxg6 Rh8 30. Bxd3 cxd3 31. Qxd3 Bxe5 32. fxe5 
+Raf8 33. axb3 a3 34. Rxa3 Rxh3+ 35. Kxh3 Rh8+ 36. Bh4+ Kd7 37. Nf3 Kc8 38.
+ Qc3+ Kb8 39. Qc5 Qxc5 40. dxc5 d4 41. Nxd4 Rc8 42. b4 Rc7 43. Nxe6 Bc8 
+44. g4 Bxe6 45. Ra6 Bc4 46. Rd6 Bb5 47. e6 Ka7 48. e7 Bf1+ 49. Kg3 Bb5 50.
+ Rd8 Kb7 51. e8=Q Bxe8 52. Rxe8 Kc6 53. g5 Kd5 54. g6 Rg7 55. Kf4 Rxg6 56.
+ Rd8+ Kc4 57. Rd6 Rg8 58. Rb6 Rf8+ 59. Ke5 Re8+ 60. Kd6 Re4 61. c6 Rd4+ 
+62. Kc7 Kb3 63. Bf6 Rf4 64. Be5 Rf7+ 65. Kd6 Rf2 66. c7 Rc2 67. Rb8 Rd2+ 
+68. Kc6 Rc2+ 69. Bc3 Kc4 70. c8=Q Rxb2 71. Bxb2 {TB win for White} 1-0
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "ID11258 lc0 0.19.1-rc1"]
+[Black "Komodo 12"]
+[Result "0-1"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 Bf5 4. Bd3 Bg6 5. Nf3 e6 6. c4 dxc4 7. Bxc4 Bd6 
+8. Ne5 Nh5 9. Nxg6 hxg6 10. Bxd6 cxd6 11. Nd2 O-O 12. Be2 Nf6 13. Qb3 Qe7 
+14. O-O Nc6 15. Rfc1 Rac8 16. Rc2 e5 17. dxe5 dxe5 18. Rac1 Rcd8 19. Nf1 
+Rb8 20. Bb5 Nd8 21. a3 e4 22. h3 Qe5 23. Rc5 Qe7 24. Rc7 Qd6 25. R7c2 Qe5 
+26. Ng3 a6 27. Bf1 Nc6 28. Qc3 Qxc3 29. Rxc3 Ne5 30. Rc5 Rfe8 31. Rd1 Rbc8
+32. Rxc8 Rxc8 33. Rd4 Nc6 34. Ra4 Kf8 35. Nxe4 b5 36. Nd6 Rd8 37. Rxa6 
+Rxd6 38. Bxb5 Rd1+ 39. Kh2 Nd8 40. b4 Ne4 41. Be2 Ra1 42. b5 Nc5 43. Ra8 
+Ke7 44. Bc4 g5 45. f4 gxf4 46. exf4 Rc1 47. Ba2 Rc2 48. Bd5 Rd2 49. Bf3 
+Rb2 50. a4 Rb4 51. Bd1 f5 52. g4 Rd4 53. Bf3 Rxf4 54. Kg3 Rxa4 55. Rxa4 
+Nxa4 56. Kf4 fxg4 57. Kxg4 Kf6 58. Be4 Ne6 59. Bd3 Nec5 60. Bf1 Ne4 61. 
+Bg2 Nd6 62. Bc6 Nc3 63. b6 Nc4 64. Bb7 Nxb6 65. Ba6 Nd7 66. Kf4 Nd5+ 67. 
+Kg3 Ne7 68. Kf4 Ng6+ 69. Kg4 Nde5+ 70. Kg3 Kg5 71. Bc8 Nd3 72. Be6 Ndf4 
+73. Bc8 Nh5+ 74. Kh2 Kh4 75. Be6 Ne5 76. Bf5 Nf4 77. Bc8 Nxh3 {TB win for 
+Black} 0-1
+
+[Event "Event"]
+[Site "Site"]
+[Date "????.??.??"]
+[Round "1"]
+[White "Franken-Ender-83"]
+[Black "Komodo 12"]
+[Result "1/2-1/2"]
+[LeelaRatio "0.75"]
+[TimeControl "move/2.5s"]
+
+1. d4 d5 2. Bf4 Nf6 3. e3 Bf5 4. Bd3 Bg6 5. Nf3 e6 6. c4 dxc4 7. Bxc4 Bd6 
+8. Ne5 Nh5 9. Nxg6 hxg6 10. Bxd6 cxd6 11. Nd2 O-O 12. Be2 Nf6 13. Qb3 Qe7 
+14. O-O Nc6 15. Rfc1 Rac8 16. Rc2 e5 17. dxe5 dxe5 18. Rac1 Rcd8 19. Nf1 
+Rb8 20. Bb5 Nd8 21. a3 e4 22. h3 Qe5 23. Rc5 Qe7 24. Rc7 Qd6 25. R7c2 Qe5 
+26. Ng3 a6 27. Bf1 Nc6 28. Qc3 Qxc3 29. Rxc3 Ne5 30. Rc5 Rfe8 31. Rd1 Rbc8
+32. Rxc8 Rxc8 33. Rd4 Nc6 34. Ra4 Kf8 35. Nxe4 b5 36. Nd6 Rd8 37. Rxa6 
+Rxd6 38. Bxb5 Rd1+ 39. Kh2 Nd8 40. Ra8 Ke7 41. Ra7+ Kd6 42. b3 g5 43. a4 
+Rd2 44. Kg1 Rb2 45. Bc4 Nd7 46. Ra8 Ke7 47. a5 Ne5 48. Bd5 Ndc6 49. a6 Ra2
+50. f4 gxf4 51. exf4 Nb4 52. Ra7+ Nd7 53. Bxf7 Nc6 54. Rc7 Rxa6 55. Bc4 
+Ra1+ 56. Kh2 Kd6 57. Rc8 Nb6 58. Rg8 Ra7 59. g4 Nxc4 60. bxc4 Ke6 61. h4 
+Ra2+ 62. Kg3 Ra3+ 63. Kf2 Kf7 64. Rc8 Nd4 65. f5 Rf3+ 66. Kg2 Rd3 67. Rd8 
+Ke7 68. Rd5 Rd2+ 69. Kh3 Nb3 70. Rxd2 Nxd2 71. c5 Nb3 72. c6 Nd4 73. c7 
+Kd7 74. Kg3 Kxc7 75. Kf4 Kd6 76. h5 Nc6 77. Kg5 Ne5 78. Kf4 Nd3+ 79. Kg5 
+Ke7 80. Kg6 Kf8 81. f6 gxf6 {TB draw} 1/2-1/2
+

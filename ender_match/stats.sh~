@@ -1,0 +1,3 @@
+#!/bin/bash
+
+~/deep1/chess/bin/ordo -p $1 -j head.txt -A "Komodo 12" -a 3494 -q

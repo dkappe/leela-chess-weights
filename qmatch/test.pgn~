@@ -1,0 +1,180 @@
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "1"]
+[White "Komodo 12 TB 1"]
+[Black "Komodo 12 TB 2"]
+[Result "1/2-1/2"]
+[FEN "8/8/8/6k1/8/6p1/8/7K b - - 0 1"]
+
+1... Kf4 2. Kg1 Kg4 3. Kg2 Kh4 4. Kg1 Kg5 5. Kg2 Kg4 6. Kg1 Kf5 7. Kf1 g2+
+8. Kxg2 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "2"]
+[White "Komodo 12 TB 2"]
+[Black "Komodo 12 TB 1"]
+[Result "1/2-1/2"]
+[FEN "8/8/8/6k1/8/6p1/8/7K b - - 0 1"]
+
+1... Kg4 2. Kg1 Kf5 3. Kg2 Kf4 4. Kg1 Ke3 5. Kg2 Kf4 6. Kg1 Ke3 7. Kg2 Kf4
+1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "3"]
+[White "Komodo 12 TB 1"]
+[Black "Komodo 12 TB 2"]
+[Result "1/2-1/2"]
+[FEN "8/2k5/8/8/K7/6N1/8/8 w - - 0 1"]
+
+1. Nf1 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "4"]
+[White "Komodo 12 TB 2"]
+[Black "Komodo 12 TB 1"]
+[Result "1/2-1/2"]
+[FEN "8/2k5/8/8/K7/6N1/8/8 w - - 0 1"]
+
+1. Nf1 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "5"]
+[White "Komodo 12 TB 1"]
+[Black "Komodo 12 TB 2"]
+[Result "1/2-1/2"]
+[FEN "8/4K3/8/8/8/8/8/k6N b - - 0 1"]
+
+1... Kb2 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "6"]
+[White "Komodo 12 TB 2"]
+[Black "Komodo 12 TB 1"]
+[Result "1/2-1/2"]
+[FEN "8/4K3/8/8/8/8/8/k6N b - - 0 1"]
+
+1... Kb1 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "7"]
+[White "Komodo 12 TB 1"]
+[Black "Komodo 12 TB 2"]
+[Result "1/2-1/2"]
+[FEN "8/8/8/2pK4/8/3k4/8/8 w - - 0 1"]
+
+1. Kxc5 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "8"]
+[White "Komodo 12 TB 2"]
+[Black "Komodo 12 TB 1"]
+[Result "1/2-1/2"]
+[FEN "8/8/8/2pK4/8/3k4/8/8 w - - 0 1"]
+
+1. Kxc5 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "9"]
+[White "Komodo 12 TB 1"]
+[Black "Komodo 12 TB 2"]
+[Result "1/2-1/2"]
+[FEN "8/8/4k2K/8/8/3b4/8/8 b - - 0 1"]
+
+1... Bb1 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "10"]
+[White "Komodo 12 TB 2"]
+[Black "Komodo 12 TB 1"]
+[Result "1/2-1/2"]
+[FEN "8/8/4k2K/8/8/3b4/8/8 b - - 0 1"]
+
+1... Bb1 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "11"]
+[White "Komodo 12 TB 1"]
+[Black "Komodo 12 TB 2"]
+[Result "1/2-1/2"]
+[FEN "8/8/4k3/8/8/7K/2b5/8 b - - 0 1"]
+
+1... Bb1 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "12"]
+[White "Komodo 12 TB 2"]
+[Black "Komodo 12 TB 1"]
+[Result "1/2-1/2"]
+[FEN "8/8/4k3/8/8/7K/2b5/8 b - - 0 1"]
+
+1... Bb1 1/2-1/2
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "13"]
+[White "Komodo 12 TB 1"]
+[Black "Komodo 12 TB 2"]
+[Result "0-1"]
+[FEN "8/K7/8/3k4/8/8/5r2/8 b - - 0 1"]
+
+1... Kc6 2. Ka8 Kb6 3. Kb8 Rf8# 0-1
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "14"]
+[White "Komodo 12 TB 2"]
+[Black "Komodo 12 TB 1"]
+[Result "0-1"]
+[FEN "8/K7/8/3k4/8/8/5r2/8 b - - 0 1"]
+
+1... Kc6 2. Ka8 Kc7 3. Ka7 Ra2# 0-1
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "15"]
+[White "Komodo 12 TB 1"]
+[Black "Komodo 12 TB 2"]
+[Result "1-0"]
+[FEN "8/8/7P/8/2K5/8/8/3k4 b - - 0 1"]
+
+1... Ke2 2. h7 Ke3 3. h8=Q Ke2 4. Qf6 Ke3 5. Qf5 Ke2 6. Qf4 Kd1 7. Kd3 Ke1
+8. Qf6 Kd1 9. Qa1# 1-0
+
+[Event "3n4"]
+[Site "?"]
+[Date "2018.06.10"]
+[Round "16"]
+[White "Komodo 12 TB 2"]
+[Black "Komodo 12 TB 1"]
+[Result "1-0"]
+[FEN "8/8/7P/8/2K5/8/8/3k4 b - - 0 1"]
+
+1... Ke2 2. h7 Kd1 3. h8=Q Ke2 4. Kd4 Kf2 5. Qf6+ Kg3 6. Ke3 Kg2 7. Qh4 Kg1
+8. Kf3 Kf1 9. Qh1# 1-0
+
