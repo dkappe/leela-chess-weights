@@ -7,7 +7,10 @@ import sys
 import configparser
 from random import randrange
 
-
+def log(msg):
+    print(msg)
+    sys.stdout.flush()
+    
 config = configparser.ConfigParser()
 config.read(sys.argv[1])
 
@@ -19,6 +22,10 @@ class Engine:
         self.name = name
         self.engine = chess.uci.popen_engine(cmd)
         self.engine.setoption(options)
+        log("name = {}".format(name))
+        wfile = options.get("WeightsFile")
+        if not wfile == None:
+            log("WeightsFile = {}".format(options["WeightsFile"]))
         self.engine.uci()
         self.engine.isready()
 
@@ -131,7 +138,7 @@ class MatchGame:
                 self.black.engine.position(self.board)
                 best, ponder = self.black.engine.go(movetime=black_time)
                 self.board.push(best)
-            print(best)
+            log(best)
 
 def doctor_game(game, side, piece_count):
     moves = game.main_line()
@@ -155,6 +162,7 @@ def getMatchGame(color, us=None, them=None):
     return match_game
 
 with open(config['DEFAULT']['Output'], 'a+') as pgn, open(config['DEFAULT']['Openings'], 'r') as openings:
+    log("Setup")
     movetime = int(config['DEFAULT']['Movetime'])
     enemytime = int(config['DEFAULT']['Enemytime'])
     count = int(config['DEFAULT']['Games'])
@@ -164,37 +172,42 @@ with open(config['DEFAULT']['Output'], 'a+') as pgn, open(config['DEFAULT']['Ope
         color = chess.BLACK
 
     book = Openings(openings)
-    print(book.opening_count())
+    log(book.opening_count())
     enemy_name = config['DEFAULT']['Enemy']
     enemy_cmd = config['DEFAULT']['Enemy Command']
     enemy_options = config['Enemy Options']
     enemy = Engine(name=enemy_name, cmd=enemy_cmd, options=enemy_options)
-    print(enemy.engine.name)
-
-    leela_name = config['DEFAULT']['Leela']
-    leela_cmd = config['DEFAULT']['Leela Command']
-    leela_options = config['Leela Options']
-    leela = Engine(name=leela_name, cmd=leela_cmd, options=leela_options)
-    print(leela.engine.name)
+    log(enemy.engine.name)
 
     ender_name = config['DEFAULT']['Ender']
     ender_cmd = config['DEFAULT']['Ender Command']
     ender_options = config['Ender Options']
     ender = Engine(name=ender_name, cmd=ender_cmd, options=ender_options)
-    print(ender.engine.name)
+    log(ender.engine.name)
+    log("Ender conf")
+    log(ender_options["WeightsFile"])
+    
+    time.sleep(1)
 
+    leela_name = config['DEFAULT']['Leela']
+    leela_cmd = config['DEFAULT']['Leela Command']
+    leela_options = config['Leela Options']
+    leela = Engine(name=leela_name, cmd=leela_cmd, options=leela_options)
+    log(leela.engine.name)
+    
     for i in range(count):
-        sys.stdout.flush()
-
-        print("\n")
-        print("Leela")
+        log("playing game {}".format(count+1))
+        log("\n")
+        log("Leela")
 
 
 
         match_game = getMatchGame(color, us=leela, them=enemy)
 
         op = book.get_opening()
+        log("kickoff play")
         game = match_game.play(movetime=movetime, enemytime=enemytime, opening=op)
+        log("play done")
         game.headers['LeelaRatio'] = config['DEFAULT']['Leela Ratio']
         game.headers['TimeControl'] = "move/{}s".format(movetime/1000)
 
@@ -203,24 +216,26 @@ with open(config['DEFAULT']['Output'], 'a+') as pgn, open(config['DEFAULT']['Ope
 
         if next_opening == None:
             # one more time
+            log("ender replay")
             match_game = getMatchGame(color, us=leela, them=enemy)
-
+            log("kickoff play")
             game = match_game.play(movetime=movetime, enemytime=enemytime, opening=op)
+            log("play done")
             game.headers['LeelaRatio'] = config['DEFAULT']['Leela Ratio']
             game.headers['TimeControl'] = "move/{}s".format(movetime/1000)
 
             next_opening = doctor_game(game, color, ENDER_PIECE_COUNT)
 
-        print("")
+        log("")
 
         if next_opening == None:
-            print("Unsuitable game.\n")
-            print(game)
+            log("Unsuitable game.\n")
+            log(game)
         else:
-            time.sleep(5)
+            time.sleep(1)
             
-            print("\n")
-            print("Ender")
+            log("\n")
+            log("Ender")
 
             match_game2 = getMatchGame(color, us=ender, them=enemy)
 
@@ -234,8 +249,8 @@ with open(config['DEFAULT']['Output'], 'a+') as pgn, open(config['DEFAULT']['Ope
             pgn.write("\n")
             pgn.flush()
 
-            print(game.headers['Result'])
-            print(game2.headers['Result'])
+            log(game.headers['Result'])
+            log(game2.headers['Result'])
 
     enemy.engine.quit()
     leela.engine.quit()
