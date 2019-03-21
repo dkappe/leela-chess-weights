@@ -44,8 +44,9 @@ class Openings:
         return self.openings[random_index]
 
 class MatchGame:
-    def __init__(self, white=None, black=None, egtb_path=None, tbadj=6):
+    def __init__(self, white=None, black=None, egtb_path=None, tbadj=6, us_color=None):
         super().__init__()
+        self.us_color = us_color
         self.white = white
         self.black = black
         self.tb = chess.syzygy.open_tablebases(egtb_path)
@@ -101,9 +102,16 @@ class MatchGame:
         game.headers['Black'] = self.black.name
         game.headers['Round'] = 1
 
-    def play(self, movetime=1000, opening=None):
+    def play(self, movetime=1000, enemytime=1000, opening=None):
         self.white.engine.ucinewgame()
         self.black.engine.ucinewgame()
+
+        if self.us_color: # white
+            white_time = movetime
+            black_time = enemytime
+        else:
+            white_time = enemytime
+            black_time = movetime
 
         if opening != None:
             moves = opening.main_line()
@@ -117,11 +125,11 @@ class MatchGame:
                 return game
             if self.board.turn: #white
                 self.white.engine.position(self.board)
-                best, ponder = self.white.engine.go(movetime=movetime)
+                best, ponder = self.white.engine.go(movetime=white_time)
                 self.board.push(best)
             else:
                 self.black.engine.position(self.board)
-                best, ponder = self.black.engine.go(movetime=movetime)
+                best, ponder = self.black.engine.go(movetime=black_time)
                 self.board.push(best)
             print(best)
 
@@ -141,13 +149,14 @@ def doctor_game(game, side, piece_count):
 
 def getMatchGame(color, us=None, them=None):
     if color: # white
-        match_game = MatchGame(white=us, black=them, egtb_path=config['DEFAULT']['EGTB Path'])
+        match_game = MatchGame(white=us, black=them, egtb_path=config['DEFAULT']['EGTB Path'], us_color=color)
     else:
-        match_game = MatchGame(white=them, black=us, egtb_path=config['DEFAULT']['EGTB Path'])
+        match_game = MatchGame(white=them, black=us, egtb_path=config['DEFAULT']['EGTB Path'], us_color=color)
     return match_game
 
 with open(config['DEFAULT']['Output'], 'a+') as pgn, open(config['DEFAULT']['Openings'], 'r') as openings:
     movetime = int(config['DEFAULT']['Movetime'])
+    enemytime = int(config['DEFAULT']['Enemytime'])
     count = int(config['DEFAULT']['Games'])
     if config['DEFAULT']['Color'] == 'White':
         color = chess.WHITE
@@ -185,7 +194,7 @@ with open(config['DEFAULT']['Output'], 'a+') as pgn, open(config['DEFAULT']['Ope
         match_game = getMatchGame(color, us=leela, them=enemy)
 
         op = book.get_opening()
-        game = match_game.play(movetime=movetime, opening=op)
+        game = match_game.play(movetime=movetime, enemytime=enemytime, opening=op)
         game.headers['LeelaRatio'] = config['DEFAULT']['Leela Ratio']
         game.headers['TimeControl'] = "move/{}s".format(movetime/1000)
 
@@ -196,7 +205,7 @@ with open(config['DEFAULT']['Output'], 'a+') as pgn, open(config['DEFAULT']['Ope
             # one more time
             match_game = getMatchGame(color, us=leela, them=enemy)
 
-            game = match_game.play(movetime=movetime, opening=op)
+            game = match_game.play(movetime=movetime, enemytime=enemytime, opening=op)
             game.headers['LeelaRatio'] = config['DEFAULT']['Leela Ratio']
             game.headers['TimeControl'] = "move/{}s".format(movetime/1000)
 
@@ -208,14 +217,14 @@ with open(config['DEFAULT']['Output'], 'a+') as pgn, open(config['DEFAULT']['Ope
             print("Unsuitable game.\n")
             print(game)
         else:
-            time.sleep(60)
+            time.sleep(5)
             
             print("\n")
             print("Ender")
 
             match_game2 = getMatchGame(color, us=ender, them=enemy)
 
-            game2 = match_game2.play(movetime=movetime, opening=next_opening)
+            game2 = match_game2.play(movetime=movetime, enemytime=enemytime, opening=next_opening)
             game2.headers['LeelaRatio'] = config['DEFAULT']['Leela Ratio']
             game2.headers['TimeControl'] = "move/{}s".format(movetime/1000)
 
