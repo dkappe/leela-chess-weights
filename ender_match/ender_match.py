@@ -20,8 +20,9 @@ class Engine:
     def __init__(self, name=None, cmd=None, options=None):
         super().__init__()
         self.name = name
-        self.engine = chess.uci.popen_engine(cmd)
-        self.engine.setoption(options)
+        self.cmd = cmd
+        self.options = options
+        self.start_engine()
         log("name = {}".format(name))
         wfile = options.get("WeightsFile")
         if not wfile == None:
@@ -29,6 +30,10 @@ class Engine:
         self.engine.uci()
         self.engine.isready()
 
+
+    def start_engine(self):
+        self.engine = chess.uci.popen_engine(self.cmd)
+        self.engine.setoption(self.options)
 
 
 class Openings:
@@ -131,13 +136,26 @@ class MatchGame:
                 self.populate_headers(game)
                 return game
             if self.board.turn: #white
-                self.white.engine.position(self.board)
-                best, ponder = self.white.engine.go(movetime=white_time)
-                self.board.push(best)
+                try:
+                    self.white.engine.position(self.board)
+                    best, ponder = self.white.engine.go(movetime=white_time)
+                    self.board.push(best)
+                except:
+                    self.white.start_engine()
+                    self.white.engine.position(self.board)
+                    best, ponder = self.white.engine.go(movetime=white_time)
+                    self.board.push(best)
             else:
-                self.black.engine.position(self.board)
-                best, ponder = self.black.engine.go(movetime=black_time)
-                self.board.push(best)
+                try:
+                    self.black.engine.position(self.board)
+                    best, ponder = self.black.engine.go(movetime=black_time)
+                    self.board.push(best)
+                except:
+                    self.black.start_engine()
+                    self.black.engine.position(self.board)
+                    best, ponder = self.black.engine.go(movetime=black_time)
+                    self.board.push(best)
+        
             log(best)
 
 def doctor_game(game, side, piece_count):
